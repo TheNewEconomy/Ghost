@@ -1,0 +1,10 @@
+#General Data
+name: Ghost
+version: 0.1.2.0
+description: A Ghost provider for Reserve, to test allow plugins to verify their implementation of the API.
+author: creatorfromhell
+api-version: 1.13
+
+#Plugin Data
+main: net.tnemc.ghost.core.Ghost
+softdepend: [Reserve]
