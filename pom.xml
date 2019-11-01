@@ -81,8 +81,8 @@
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
         <repository>
-            <id>reserve-repo</id>
-            <url>https://dl.bintray.com/theneweconomy/java/</url>
+            <id>github</id>
+            <url>https://maven.pkg.github.com/TheNewEconomy/packages</url>
         </repository>
     </repositories>
 
@@ -104,6 +104,12 @@
             <artifactId>bukkit</artifactId>
             <version>1.14-pre5-SNAPSHOT</version>
             <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>net.tnemc</groupId>
+            <artifactId>TNCH</artifactId>
+            <version>0.1.9.25</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 </project>
